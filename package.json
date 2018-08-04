@@ -4,7 +4,12 @@
   "main": "index.js",
   "author": "Edwin Joseph",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./server",
+    "start:watch": "nodemon ./server"
+  },
   "dependencies": {
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "hbs": "^4.0.1"
   }
